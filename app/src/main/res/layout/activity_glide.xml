@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lin.glide.GlideActivity">
+
+    <include layout="@layout/titlebar" />
+
+    <Button
+        android:id="@+id/btn_normal"
+        android:text="基本方法的使用"
+        style="@style/MyButton" />
+
+    <Button
+        android:id="@+id/btn_load"
+        android:text="在RecyclerView中加载图片"
+        style="@style/MyButton" />
+
+    <Button
+        android:id="@+id/btn_transform"
+        android:text="图片变换"
+        style="@style/MyButton" />
+</LinearLayout>

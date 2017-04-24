@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lin.pulltorefresh.PullToRefreshActivity">
+
+    <include layout="@layout/titlebar" />
+
+    <Button
+        android:id="@+id/listview"
+        style="@style/MyButton"
+        android:text="ListView中使用" />
+
+    <Button
+        style="@style/MyButton"
+        android:id="@+id/gridview"
+        android:text="GridView中使用" />
+
+    <Button
+        android:id="@+id/fragment"
+        style="@style/MyButton"
+        android:text="Fragment中使用" />
+
+    <Button
+        android:id="@+id/viewpager"
+        style="@style/MyButton"
+        android:text="ListView在ViewPager" />
+
+    <Button
+        style="@style/MyButton"
+        android:id="@+id/viewpager2"
+        android:text="ViewPager" />
+
+    <Button
+        style="@style/MyButton"
+        android:id="@+id/webview"
+        android:text="WebView中使用" />
+
+</LinearLayout>

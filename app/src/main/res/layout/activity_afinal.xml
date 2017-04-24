@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lin.afinal.AfinalActivity">
+
+    <include layout="@layout/titlebar">
+
+    </include>
+
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/btn_loadImage"
+        style="@style/MyButton"
+        android:text="使用Afinal加载图片" />
+
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/btn_getText"
+        style="@style/MyButton"
+        android:text="使用Afinal请求文本" />
+
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/btn_loadFile"
+        style="@style/MyButton"
+        android:text="使用Afinal下载文本" />
+
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/btn_uploadText"
+        style="@style/MyButton"
+        android:text="使用Afinal上传文本" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示结果"
+        android:textColor="@android:color/holo_blue_light" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lin.mr.androidnewtec">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.lin.application.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/twitter"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.lin.eventbus.EventBusActivity" />
+        <activity android:name="com.lin.eventbus.EventBusSendActivity" />
+        <activity android:name="com.lin.imageloader.ImageLoaderActivity" />
+        <activity android:name="com.lin.imageloader.ListViewActivity" />
+        <activity android:name="com.lin.imageloader.GridViewActivity" />
+        <activity android:name="com.lin.imageloader.ViewPagerActivity" />
+        <activity android:name="com.lin.volley.VolleyActivity" />
+        <activity
+            android:name="com.lin.MainActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name="com.lin.xutils3.annotation.Xutils3Activity" />
+        <activity android:name="com.lin.xutils3.annotation.FragmentXutils3Activity" />
+        <activity android:name="com.lin.xutils3.net.Xutils3NetActivity" />
+        <activity android:name="com.lin.framework.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.lin.picasso.PicassoActivity" />
+        <activity android:name="com.lin.picasso.PicassoListViewActivity" />
+        <activity android:name="com.lin.picasso.PicassoChangeActivity" />
+        <activity android:name="com.lin.okhttp.OKHttpActivity" />
+        <activity android:name="com.lin.okhttp.OKHttpListActivity" />
+        <activity android:name="com.lin.afinal.AfinalActivity" />
+        <activity
+            android:name="com.lin.recyclerview.RecyclerViewActivity"
+            android:theme="@style/listDividerTheme" />
+        <activity android:name="com.lin.json.NativeJsonParseActivity" />
+        <activity android:name="com.lin.json.GsonActivity" />
+        <activity android:name="com.lin.json.FastJsonActivity" />
+        <activity android:name="com.lin.pulltorefresh.PullToRefreshActivity" />
+        <activity android:name="com.lin.pulltorefresh.PullToRefreshListActivity" />
+        <activity android:name="com.lin.glide.GlideActivity" />
+        <activity android:name="com.lin.glide.GlideBaseActivity" />
+        <activity android:name="com.lin.glide.GlideRecyclerViewActivity" />
+        <activity android:name="com.lin.glide.GlideTransformActivity"></activity>
+    </application>
+
+</manifest>

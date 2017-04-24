@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lin.imageloader.ImageLoaderActivity">
+
+    <include layout="@layout/titlebar"></include>
+
+    <Button
+        android:id="@+id/btn_lv"
+        android:layout_margin="10dp"
+        android:textSize="16sp"
+        android:text="在ListView中显示图片"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_gv"
+        android:layout_margin="10dp"
+        android:textSize="16sp"
+        android:text="在GridView中显示图片"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_vp"
+        android:layout_margin="10dp"
+        android:textSize="16sp"
+        android:text="在ViewPager中显示图片"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
