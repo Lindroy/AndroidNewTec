@@ -98,7 +98,6 @@ public class GsonActivity extends Activity {
         tvOriginal.setText(json);
         //显示解析后的Json数据
         tvLast.setText(shops.toString());
-
     }
 
     //将Java对象转换为json字符串{}

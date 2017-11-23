@@ -94,6 +94,7 @@ public class RecyclerViewActivity extends Activity implements View.OnClickListen
                 }, 2000);
             }
         });
+        swipeRefreshLayout.refreshDrawableState();
     }
 
     private void refreshData() {

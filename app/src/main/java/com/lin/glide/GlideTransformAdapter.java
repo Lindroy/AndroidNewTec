@@ -157,8 +157,8 @@ public class GlideTransformAdapter extends RecyclerView.Adapter<GlideTransformAd
             case 10:
                 Glide.with(context)
                         .load(R.drawable.demo)
-                        .bitmapTransform(new RoundedCornersTransformation(context, 30, 0,
-                                RoundedCornersTransformation.CornerType.BOTTOM))
+//                RoundedCornersTransformation.CornerType.BOTTOM
+                        .bitmapTransform(new RoundedCornersTransformation(context, Utils.dip2px(context, 6), 0))
                         .into(holder.ivGlideTranfromations);
                 break;
             case 11:
@@ -228,6 +228,8 @@ public class GlideTransformAdapter extends RecyclerView.Adapter<GlideTransformAd
                         .bitmapTransform(new VignetteFilterTransformation(context, new PointF(0.5f, 0.5f),
                                 new float[]{0.0f, 0.0f, 0.0f}, 0f, 0.75f))
                         .into(holder.ivGlideTranfromations);
+                break;
+            default:
                 break;
         }
     }
